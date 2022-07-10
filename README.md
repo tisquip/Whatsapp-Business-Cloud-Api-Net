@@ -55,7 +55,7 @@ var httpClient = new HttpClient();
 
 httpClient.BaseAddress = WhatsAppBusinessRequestEndpoint.BaseAddress;
 	
-//create Mpesa API client instance
+//create whatsapp API client instance
 var whatsAppBusinessClient = new WhatsAppBusinessClient(httpClient, whatsAppConfig); //make sure to pass httpclient and whatsAppConfig intance as an argument
 	
 ```
